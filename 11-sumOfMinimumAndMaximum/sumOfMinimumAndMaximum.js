@@ -7,7 +7,7 @@ function sumOfMinimumAndMaximum(nums) {
   min = nums[i];  //if so, min becomes the element at that index
   }
   if(max < nums[i]){  //traverse the nums array and check if there are any values greater than the max
-  max = nums[i]  //if so,m max becomes that ekement.
+  max = nums[i]  //if so, max becomes that element.
   }
  }
 sum = min + max;  //add the min and max, and set that to the sum variable
